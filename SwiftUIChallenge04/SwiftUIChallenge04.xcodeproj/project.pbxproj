@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		125DFAEF28408CD300079063 /* showtimesDatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125DFAEE28408CD300079063 /* showtimesDatesView.swift */; };
+		125DFAF228409AFE00079063 /* dateItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125DFAF128409AFE00079063 /* dateItemView.swift */; };
+		125DFAF42840A31400079063 /* movieTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125DFAF32840A31400079063 /* movieTimesView.swift */; };
+		125DFAF62840A33400079063 /* timeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125DFAF52840A33400079063 /* timeItemView.swift */; };
 		12D81D90284052FC00C61CFB /* SwiftUIChallenge04App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D81D8F284052FC00C61CFB /* SwiftUIChallenge04App.swift */; };
 		12D81D92284052FC00C61CFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D81D91284052FC00C61CFB /* ContentView.swift */; };
 		12D81D94284052FE00C61CFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D81D93284052FE00C61CFB /* Assets.xcassets */; };
@@ -26,9 +30,14 @@
 		12D81DBE28405ED700C61CFB /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D81DBD28405ED700C61CFB /* Theme.xcassets */; };
 		12D81DC028405F2800C61CFB /* bytheaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D81DBF28405F2800C61CFB /* bytheaterView.swift */; };
 		12D81DC228405F5F00C61CFB /* movieImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D81DC128405F5F00C61CFB /* movieImageView.swift */; };
+		12D81DC4284066E200C61CFB /* movieTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D81DC3284066E200C61CFB /* movieTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		125DFAEE28408CD300079063 /* showtimesDatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showtimesDatesView.swift; sourceTree = "<group>"; };
+		125DFAF128409AFE00079063 /* dateItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateItemView.swift; sourceTree = "<group>"; };
+		125DFAF32840A31400079063 /* movieTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieTimesView.swift; sourceTree = "<group>"; };
+		125DFAF52840A33400079063 /* timeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeItemView.swift; sourceTree = "<group>"; };
 		12D81D8C284052FC00C61CFB /* SwiftUIChallenge04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIChallenge04.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D81D8F284052FC00C61CFB /* SwiftUIChallenge04App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChallenge04App.swift; sourceTree = "<group>"; };
 		12D81D91284052FC00C61CFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +59,7 @@
 		12D81DBD28405ED700C61CFB /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
 		12D81DBF28405F2800C61CFB /* bytheaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bytheaterView.swift; sourceTree = "<group>"; };
 		12D81DC128405F5F00C61CFB /* movieImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieImageView.swift; sourceTree = "<group>"; };
+		12D81DC3284066E200C61CFB /* movieTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +140,11 @@
 			isa = PBXGroup;
 			children = (
 				12D81DC128405F5F00C61CFB /* movieImageView.swift */,
+				12D81DC3284066E200C61CFB /* movieTitleView.swift */,
+				125DFAEE28408CD300079063 /* showtimesDatesView.swift */,
+				125DFAF128409AFE00079063 /* dateItemView.swift */,
+				125DFAF32840A31400079063 /* movieTimesView.swift */,
+				125DFAF52840A33400079063 /* timeItemView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -248,15 +263,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125DFAF62840A33400079063 /* timeItemView.swift in Sources */,
 				12D81DB02840542C00C61CFB /* ScaledFont.swift in Sources */,
 				12D81DC028405F2800C61CFB /* bytheaterView.swift in Sources */,
+				12D81DC4284066E200C61CFB /* movieTitleView.swift in Sources */,
 				12D81D92284052FC00C61CFB /* ContentView.swift in Sources */,
 				12D81DB22840542C00C61CFB /* CustomTextStyle.swift in Sources */,
 				12D81DB12840542C00C61CFB /* DefaultPreview.swift in Sources */,
+				125DFAF228409AFE00079063 /* dateItemView.swift in Sources */,
 				12D81DBB2840542C00C61CFB /* Palette+Color.swift in Sources */,
 				12D81DB32840542C00C61CFB /* RoundedCorners.swift in Sources */,
 				12D81DC228405F5F00C61CFB /* movieImageView.swift in Sources */,
+				125DFAEF28408CD300079063 /* showtimesDatesView.swift in Sources */,
 				12D81D90284052FC00C61CFB /* SwiftUIChallenge04App.swift in Sources */,
+				125DFAF42840A31400079063 /* movieTimesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

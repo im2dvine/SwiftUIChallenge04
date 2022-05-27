@@ -7,15 +7,13 @@ struct movieImageView: View {
                 Image("Header Image")
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 331)
+                
                 
                 Image("overlay-1")
                     .resizable()
-                    .frame(height: 331)
             }
-            
-            Spacer()
         }
+        .frame(height: 331)
     }
 }
 

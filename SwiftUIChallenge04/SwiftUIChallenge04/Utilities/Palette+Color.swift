@@ -19,6 +19,9 @@ extension Color {
     static let baseText = Color("baseText")
     static let baseAccent = Color("baseAccent")
     static let baseAccentText = Color("baseAccentText")
+    static let baseOverlayColor = Color("baseOverlayColor")
+    static let baseDateColor = Color("baseDateColor")
+    static let baseDateYellow = Color("baseDateYellow")
 }
 
 extension UIColor {
@@ -31,6 +34,9 @@ extension UIColor {
     static let baseText = Color(named: "baseText")
     static let baseAccent = Color(named: "baseAccent")
     static let baseAccentText = Color(named: "baseAccentText")
+    static let baseOverlayColor = Color(named: "baseOverlayColor")
+    static let baseDateColor = Color(named: "baseDateColor")
+    static let baseDateYellow = Color(named: "baseDateYellow")
 
     private static func Color(named key: String) -> UIColor {
        if let color = UIColor(named: key, in: .main, compatibleWith: nil) {
