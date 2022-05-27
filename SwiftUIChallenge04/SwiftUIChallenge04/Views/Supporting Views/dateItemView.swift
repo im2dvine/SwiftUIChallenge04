@@ -154,7 +154,7 @@ struct dateItemView: View {
                     .padding(.leading, 18)
                 }
         
-        //using dateItem view
+        //using ForEach to do dateItem view
 //        HStack(spacing: -8) {
 //            ForEach(1..<6) {_ in
 //

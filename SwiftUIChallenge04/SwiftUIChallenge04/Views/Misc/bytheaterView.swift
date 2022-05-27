@@ -2,12 +2,15 @@ import SwiftUI
 
 struct bytheaterView: View {
     var body: some View {
-        VStack {
+        ScrollView {
             movieImageView()
             
             movieTitleView()
             
             showtimesDatesView()
+            
+            movieTimesView()
+                .padding(.bottom, 141)
             
             Spacer()
             
